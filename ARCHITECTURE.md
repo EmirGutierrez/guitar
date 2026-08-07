@@ -12,7 +12,6 @@ This project is a guitar store built with Next.js, React, and TypeScript. It use
   - `index.html`: static HTML file visible in the project tree for reference.
 - `src/`
   - `App.tsx`: root application component that uses the shopping cart hook.
-  - `App.css`: custom styles for the app layout and card presentation. (present in the repository but not imported by `src/App.tsx`)
   - `index.css`: global CSS styles and Bootstrap variable overrides.
   - `components/`
     - `Header.tsx`: header component, logo, and dropdown cart display.

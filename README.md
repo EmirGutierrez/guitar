@@ -9,7 +9,6 @@ GuitarLA is a Next.js app built with React and TypeScript. It renders a guitar c
   - `page.tsx`: main entry page rendering the React app.
 - `src/`
   - `App.tsx`: root client component and cart logic.
-  - `App.css`: custom app styles.
   - `index.css`: global CSS styles.
   - `components/`: UI components.
   - `data/`: static guitar data.
