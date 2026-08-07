@@ -1,6 +1,6 @@
 # GuitarLA
 
-GuitarLA is a Next.js app built with React and TypeScript. It renders a guitar catalog with a shopping cart and supports English/Spanish UI text.
+GuitarLA is a Next.js app built with React and TypeScript. It renders a guitar catalog with a shopping cart and uses English UI text.
 
 ## Project structure
 

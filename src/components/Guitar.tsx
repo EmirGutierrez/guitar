@@ -3,17 +3,11 @@ import type {Guitar} from '../types/'
 type GuitarProps = {
     guitar : Guitar
     addToCart: (item: Guitar) => void
-    lang: 'en' | 'es'
 }
 
-const buttonLabels = {
-  en: 'Add to Cart',
-  es: 'Añadir al carrito',
-}
-
-export default function Guitar({guitar, addToCart, lang} : GuitarProps) {
+export default function Guitar({guitar, addToCart} : GuitarProps) {
     const displayName = guitar.name
-    const displayDescription = lang === 'es' ? (guitar.descriptionEs ?? guitar.description) : guitar.description
+    const displayDescription = guitar.description
 
     return (
 
@@ -30,7 +24,7 @@ export default function Guitar({guitar, addToCart, lang} : GuitarProps) {
                         type="button"
                         className="btn btn-dark w-100"
                         onClick={() => addToCart(guitar)}
-                    >{buttonLabels[lang]}</button>
+                    >Add to Cart</button>
                 </div>
             </div>
         </div>

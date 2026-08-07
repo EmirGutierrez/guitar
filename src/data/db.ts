@@ -6,7 +6,6 @@ export const db : Guitar[] = [
       name: 'Lukather',
       image: 'guitarra_01',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Guitarra eléctrica con sonido profesional y diseño clásico, ideal para conciertos y estudio.',
       price: 299,
   },
   {
@@ -14,7 +13,6 @@ export const db : Guitar[] = [
       name: 'SRV',
       image: 'guitarra_02',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Guitarra con gran sustain y respuesta cálida, pensada para solos y blues potentes.',
       price: 349,
   },
   {
@@ -22,7 +20,6 @@ export const db : Guitar[] = [
       name: 'Borland',
       image: 'guitarra_03',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Modelo versátil con tono brillante y cómodo acceso a trastes altos.',
       price: 329,
   },
   {
@@ -30,7 +27,6 @@ export const db : Guitar[] = [
       name: 'VAI',
       image: 'guitarra_04',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Diseño moderno y materiales de alta calidad para una respuesta dinámica.',
       price: 299,
   },
   {
@@ -38,7 +34,6 @@ export const db : Guitar[] = [
       name: 'Thompson',
       image: 'guitarra_05',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Guitarra para interpretar riffs con claridad y potencia en cada nota.',
       price: 399,
   },
   {
@@ -46,7 +41,6 @@ export const db : Guitar[] = [
       name: 'White',
       image: 'guitarra_06',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Instrumento equilibrado con un sonido cálido y articulado.',
       price: 329,
   },
   {
@@ -54,7 +48,6 @@ export const db : Guitar[] = [
       name: 'Cobain',
       image: 'guitarra_07',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Guitarra con actitud grunge, perfecta para sonidos saturados y potentes.',
       price: 349,
   },
   {
@@ -62,7 +55,6 @@ export const db : Guitar[] = [
       name: 'Dale',
       image: 'guitarra_08',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Construcción robusta y tono definido para estilos de rock y metal.',
       price: 379,
   },
   {
@@ -70,7 +62,6 @@ export const db : Guitar[] = [
       name: 'Krieger',
       image: 'guitarra_09',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Buen equilibrio entre agresividad y claridad, con gran respuesta dinámica.',
       price: 289,
   },
   {
@@ -78,7 +69,6 @@ export const db : Guitar[] = [
       name: 'Campbell',
       image: 'guitarra_10',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Diseño elegante con sonido versátil para ritmos y solos definidos.',
       price: 349,
   },
   {
@@ -86,7 +76,6 @@ export const db : Guitar[] = [
       name: 'Reed',
       image: 'guitarra_11',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Sonido articulado y acabado premium para presentaciones profesionales.',
       price: 399,
   },
   {
@@ -94,7 +83,6 @@ export const db : Guitar[] = [
       name: 'Hazel',
       image: 'guitarra_12',
       description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-      descriptionEs: 'Perfecta para grabación en estudio con un timbre cálido y detallado.',
       price: 379,
   },
 ]

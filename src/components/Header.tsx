@@ -8,8 +8,6 @@ type HeaderProps = {
     cleanCart: () => void
     isEmpty: boolean
     cartTotal: number
-    lang: 'en' | 'es'
-
 }
 
 export default function Header({ 
@@ -20,11 +18,10 @@ export default function Header({
         cleanCart, 
         isEmpty, 
         cartTotal,
-        lang
     } : HeaderProps) {
 
     const cartItemCount = cart.reduce((total, item) => total + item.quantity, 0)
-    const text = lang === 'en' ? {
+    const text = {
       empty: 'The cart is empty',
       image: 'Image',
       name: 'Name',
@@ -32,14 +29,6 @@ export default function Header({
       quantity: 'Quantity',
       totalLabel: 'Total to pay:',
       clearCart: 'Clear Cart'
-    } : {
-      empty: 'El carrito está vacío',
-      image: 'Imagen',
-      name: 'Nombre',
-      price: 'Precio',
-      quantity: 'Cantidad',
-      totalLabel: 'Total a pagar:',
-      clearCart: 'Vaciar Carrito'
     }
 
     return (
